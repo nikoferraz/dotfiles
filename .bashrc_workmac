@@ -1,0 +1,6 @@
+alias ll='ls -alF'
+alias grep='grep --color=auto'
+alias cd..='cd ..'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
