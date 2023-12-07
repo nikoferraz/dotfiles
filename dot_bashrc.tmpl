@@ -1,3 +1,6 @@
-{{- if eq .chezmoi.location "work" -}}
+{{- if eq .location "work" -}}
 {{-   include ".bashrc_workmac" -}}
+
+{{- else if eq .chezmoi.os "linux" -}}
+{{-   include ".bashrc_linux" -}}
 {{- end -}}
